@@ -1,0 +1,27 @@
+.search {
+  width: 500px;
+  margin: 0 auto;
+
+  &__input-wrapper {
+    border: 1px solid #ccc;
+    padding: 4px 4px 0 0;
+  }
+
+  &__suggestions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-width: 0 1px 1px;
+    border-color: #ccc;
+    border-style: solid;
+
+    &__item {
+      padding: 8px;
+    }
+  }
+
+  input[type="text"] {
+    border: none;
+    margin: 0 0 4px 4px;
+  }
+}

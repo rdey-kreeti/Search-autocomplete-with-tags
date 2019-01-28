@@ -1,0 +1,17 @@
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 2px;
+  text-transform: capitalize;
+  margin: 0 0 4px 4px;
+
+  &__remove {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+}
