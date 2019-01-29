@@ -8,10 +8,12 @@
   border-radius: 2px;
   text-transform: capitalize;
   margin: 0 0 4px 4px;
+  text-transform: uppercase;
 
   &__remove {
     font-weight: bold;
     font-size: 14px;
     margin-left: 5px;
+    cursor: pointer;
   }
 }

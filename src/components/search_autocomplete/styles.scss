@@ -17,6 +17,10 @@
 
     &__item {
       padding: 8px;
+
+      &.active {
+        background-color: skyblue;
+      }
     }
   }
 

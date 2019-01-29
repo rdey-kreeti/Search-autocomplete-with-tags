@@ -4,7 +4,7 @@ import './styles.scss';
 
 const Tag = ({tagName, index, handleRemoveTag}) => {
   return (
-    <span className="tag" key={index}>{tagName} <span className="tag__remove" onClick={handleRemoveTag.bind(null, index)}>X</span></span>
+    <span className="tag" key={index}><span>{tagName}</span> <span className="tag__remove" onClick={handleRemoveTag.bind(null, index)}>X</span></span>
   )
 }
 
