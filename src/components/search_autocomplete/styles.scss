@@ -18,6 +18,11 @@
     &__item {
       padding: 8px;
 
+      &:hover {
+        background-color: skyblue;
+        cursor: pointer;
+      }
+
       &.active {
         background-color: skyblue;
       }
@@ -28,4 +33,9 @@
     border: none;
     margin: 0 0 4px 4px;
   }
+}
+
+.page-heading {
+  font-size: 24px;
+  text-align: center;
 }
